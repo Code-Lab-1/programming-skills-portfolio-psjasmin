@@ -41,7 +41,7 @@ result = float
 result = num1 * num2
 print("The product of the two numbers is", result)
 
-	# Divide the number 5 by 2 and print the answer
+  # Divide the number 5 by 2 and print the answer
 print("\n-----Dividing the number 5 by 2-----")
 num1 = 5
 num2 = 2
