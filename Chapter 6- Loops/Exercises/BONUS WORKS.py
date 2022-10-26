@@ -19,30 +19,3 @@ while passengers <= 5: #while loop
         total += ticket
 print(f"\nTotal: {total}")
 print()
-
-# ----- HEXAGON-TURTLE (FOR LOOP) - 20/10/22 -----
-    # Hexagon shape using for loop
-import turtle
-hexagon = turtle.Turtle()
-for x in range(6):
-    hexagon.forward(90)
-    hexagon.left(300)
-
-# ----- STAR-TURTLE (FOR LOOP) - 20/10/22 -----
-    # Star shape using for loop
-import turtle
-star = turtle.Turtle()
-for x in range(6):
-    star.forward(100)
-    star.right(144)
-
-# ----- CIRCLE LOOP (FOR LOOP) - 20/10/22 -----
-    # Circle loop using for loop
-import turtle
-pen = turtle.Turtle()
-circles = 36
-radius = 120
-angle = 100
-for x in range(circles):
-    pen.circle(radius)
-    pen.left(angle)
