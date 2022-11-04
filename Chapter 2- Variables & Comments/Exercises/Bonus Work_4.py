@@ -1,4 +1,4 @@
-# Bonus Work #4: Getting Details From A User - 11/4/22
+# Bonus Work #4: Getting Details From A User - 4/11/22
 # Take a user's name, age, and the country they live in using various variables.
 
 name = input("\n> What is your name? ")
