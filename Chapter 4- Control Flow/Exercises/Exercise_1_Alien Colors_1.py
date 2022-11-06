@@ -8,7 +8,7 @@
 alien_color = 'green'
 
 if alien_color == 'green':
-    print("\n\033[1;32;40m+------------------------------+")
+    print("\n\033[1;32m+------------------------------+")
     print("| You just earned five points! |")
     print("+------------------------------+\033[0m\n")
 
@@ -16,6 +16,6 @@ if alien_color == 'green':
 alien_color = 'red'
 
 if alien_color == 'green':
-    print("\n\033[1;32;40m+------------------------------+")
+    print("\n\033[1;32m+------------------------------+")
     print("| You just earned five points! |")
     print("+------------------------------+\033[0m\n")
