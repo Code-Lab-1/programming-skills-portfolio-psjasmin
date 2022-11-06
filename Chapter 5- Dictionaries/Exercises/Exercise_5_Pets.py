@@ -35,14 +35,14 @@ pet = {
 pets.append(pet)
 
 # To display information about each pet:
-print("\n\033[1m\033[1;36;40m ______   ______     ______   ______    ")
+print("\n\033[1m\033[1;36m ______   ______     ______   ______    ")
 print("/\  == \ /\  ___\   /\__  _\ /\  ___\   ")
 print("\ \  _-/ \ \  __\   \/_/\ \/ \ \___  \  ")
 print(" \ \_\    \ \_____\    \ \_\  \/\_____\ ")
 print("  \/_/     \/_____/     \/_/   \/_____/ \033[0m")
 
 for pet in pets:
-    print("\n\033[1;34;40m+----------------------------------+\033[0m")
-    print(f"\033[1m\033[1;36;40m  Information about {pet['Name'].title()}:\033[0m")
+    print("\n\033[1;34m+----------------------------------+\033[0m")
+    print(f"\033[1m\033[1;36m  Information about {pet['Name'].title()}:\033[0m")
     for key, value in pet.items():
         print(f"     {key}: {value}")
