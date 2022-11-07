@@ -6,14 +6,14 @@
 def make_shirt(size, message):
     """Summarizing the size of the shirt and the message printed on it."""
 
-    print(f"""\n\033[1;36;40m   __   __
+    print(f"""\n\033[1;36m   __   __
  /|  `-´  |\\
 /_| -Make |_\   
   |   A   |
   | Shirt |
   |_______|   
     \033[0m 
-\033[1;34;40m┌──────────────────────┐
+\033[1;34m┌──────────────────────┐
 │ Details of the shirt │
 └──────────────────────┘\033[0m
 o \033[1m Size of the shirt:\033[0m {size}
